@@ -65,7 +65,7 @@ minecraft {
 		replace "@BUILD@", project.bambooBuildNumber
 	}
 	else {
-		replace "@BUILD@", "nightly"
+		replace "@BUILD@", getDate()
 	}
 }
 
